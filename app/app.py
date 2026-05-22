@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def home():
-    return "CI/CD Pipeline Deployment Successful!"
+    return "Updated CI/CD Deployment Successful!"
 
 if __name__ == '__main__':
     app.run()
